@@ -1,0 +1,10 @@
+.controls {
+    display: flex;
+    gap: 50px;
+
+    .button {
+        background-color: black;
+        color: white;
+        padding: 15px;
+    }
+}
