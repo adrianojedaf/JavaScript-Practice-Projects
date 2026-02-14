@@ -138,8 +138,8 @@
 ---
 
 ## 🧠 Regla mental rápida
-EventTarget → eventos  
-Node → estructura (texto incluido)  
-Element → HTML  
-HTMLElement → visual / interacción  
+EventTarget → eventos
+Node → estructura (texto incluido)
+Element → HTML
+HTMLElement → visual / interacción
 HTMLXElement → cosas específicas del tag
