@@ -1,145 +1,20 @@
-# DOM – Interfaces clave (referencia rápida)
+# JavaScript Mini Projects Collection
 
-## 🧩 EventTarget
-> Eventos
+A set of small JavaScript projects built to practice core concepts and improve speed and problem-solving skills.
 
-### Métodos
-- addEventListener()
-- removeEventListener()
-- dispatchEvent()
+## Project Ideas
 
----
-
-## 🧩 Node
-> Estructura del DOM (incluye texto)
-
-### Propiedades
-- nodeType
-- nodeName
-- parentNode
-- parentElement
-- childNodes
-- firstChild
-- lastChild
-- nextSibling
-- previousSibling
-- textContent
-
-### Métodos
-- appendChild()
-- removeChild()
-- remove()
-- cloneNode()
-- contains()
-
----
-
-## 🧩 Element
-> Etiquetas HTML
-
-### Propiedades
-- id
-- className
-- classList
-- tagName
-- children
-- firstElementChild
-- lastElementChild
-- nextElementSibling
-- previousElementSibling
-- innerHTML
-
-### Métodos
-- getAttribute()
-- setAttribute()
-- removeAttribute()
-- hasAttribute()
-- toggleAttribute()
-- querySelector()
-- querySelectorAll()
-- closest()
-- matches()
-- insertAdjacentHTML()
-- insertAdjacentElement()
-- insertAdjacentText()
-- remove()
-
----
-
-## 🧩 HTMLElement
-> Propiedades visuales y HTML
-
-### Propiedades
-- style
-- hidden
-- dataset
-- title
-- lang
-- tabIndex
-- contentEditable
-- innerText
-- outerText
-
-### Métodos
-- focus()
-- blur()
-- click()
-
----
-
-## 🧩 Interfaces específicas
-
-### HTMLInputElement (<input>)
-- value
-- checked
-- disabled
-- type
-- placeholder
-- name
-- required
-- min
-- max
-- step
-- focus()
-
----
-
-### HTMLFormElement (<form>)
-- elements
-- submit()
-- reset()
-- action
-- method
-
----
-
-### HTMLButtonElement (<button>)
-- disabled
-- type
-- value
-
----
-
-### HTMLSelectElement (<select>)
-- value
-- selectedIndex
-- options
-- multiple
-
----
-
-### HTMLImageElement (<img>)
-- src
-- alt
-- width
-- height
-- loading
-
----
-
-## 🧠 Regla mental rápida
-EventTarget → eventos
-Node → estructura (texto incluido)
-Element → HTML
-HTMLElement → visual / interacción
-HTMLXElement → cosas específicas del tag
+- **Temperature Converter** — Convert between Celsius, Fahrenheit, and Kelvin
+- **Tip Calculator** — Calculate tips based on bill amount and percentage
+- **Dice Roller** — Animated dice roll simulation
+- **Pomodoro Timer** — Productivity timer with work/break cycles
+- **Rock, Paper, Scissors** — Play against the computer
+- **Weight Converter** — Convert between different weight units
+- **Real-Time Character Counter** — Displays remaining characters while typing
+- **Mini Calendar** — Shows current month, weekday, day number, and year
+- **Loading Bar Timer** — Progress bar fills according to a set duration
+- **Weather App** — Fetches live weather data using an API
+- **Palindrome Checker** — Detects whether a word or phrase is a palindrome
+- **Random Password Generator** — Generates passwords with show/hide toggle
+- **Coin Flip** — Animated heads or tails simulation
+- **Word Guessing Game** — A word is entered, shuffled, and another player must guess it before time runs out
