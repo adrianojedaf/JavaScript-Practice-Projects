@@ -11,3 +11,37 @@ body {
     box-sizing: border-box;
   }
 }
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add-player-form {
+  margin: 0 auto;
+
+}
+.add-player-button {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.players-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.player-card {
+  padding: 5px;
+  background-color: rgb(48, 165, 173);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 150px;
+  width: 100%;
+}
